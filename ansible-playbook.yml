@@ -1,5 +1,5 @@
 - name: Install Docker on the Jenkins EC2 Instance
-  hosts: localhost
+  hosts: all
   become: true
   tasks:
     - name: Update apt package index
